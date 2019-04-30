@@ -1,7 +1,7 @@
 # golf-scraper
 ## Web Scraper for Professional Golf Tournament Results
 
-### Install the pga_stats_scraper script to your site-packages folder, and use the master function as follows:
+### Install the pga_stats_scraper script, and use the master function as follows:
 
 ------------------------------------------------------------
 
