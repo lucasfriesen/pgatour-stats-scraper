@@ -1,7 +1,25 @@
-# pgatour-stats-scraper
-Scrapes All Player Stats From PGA TOUR Website
+# golf-scraper
+## Web Scraper for Professional Golf Tournament Results
 
-Add the stats_functions script to your site-packages folder, and use the following code to collect PGA TOUR stats for desired seasons:
+### Install the pga_stats_scraper script to your site-packages folder, and use the master function as follows:
 
-import stats_functions as sf
-ds = sf.collect_stats(path, years)
+------------------------------------------------------------
+
+import pga_stats_scraper as ps
+df = ps.collect_stats(PATH, YEARS)
+
+PATH -> The folder to save all files
+
+YEARS -> List of years as integers - valid years include 2009 to present.
+
+#### EXAMPLE 1:
+
+Collect data for the PGA TOUR stats for the 2018 and 2019 seasons, saving to Desktop.
+
+df = ps.collect_stats('C:/Users/###/Desktop/', [2018, 2019])
+
+#### EXAMPLE 2:
+
+Collect stats for all years and save in Documents folder.
+
+df = ps.collect_stats('C:/Users/###/Documents/', list(range(2009,2020)))
