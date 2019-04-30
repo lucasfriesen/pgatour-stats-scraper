@@ -13,6 +13,17 @@ import time
 
 
 def collect_stats(path, years):
+    """
+    Master scraping function. Scrape desired years and end up with clean stats dataset.
+    
+    Parameters:
+        path : file path to create directories and save files
+        years : list of years as integers to scrape stats for
+        
+    Returns:
+        Pandas DataFrame of ALL collected years of stats data saved in path directory.
+    
+    """
     
     start_time = time.time()
     
