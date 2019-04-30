@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Nov  7 19:15:43 2018
-
-@author: lucas
-"""
-
 __author__ = "Lucas Friesen"
 
 import os
