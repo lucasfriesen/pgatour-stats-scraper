@@ -1,12 +1,9 @@
 __author__ = "Lucas Friesen"
 
 import os
-import numpy as np
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
-import datetime
-from datetime import date
 import time
 
 
@@ -486,23 +483,5 @@ def clean_stats(ds):
     print('Stats cleaned and ready for export...')
     
     return dm
-        
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+   
     
