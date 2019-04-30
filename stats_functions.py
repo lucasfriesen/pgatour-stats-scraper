@@ -8,7 +8,6 @@ Created on Wed Nov  7 19:15:43 2018
 __author__ = "Lucas Friesen"
 
 import os
-os.chdir("C:/Users/lucas/Documents/Golf/")
 import numpy as np
 import pandas as pd
 import requests
