@@ -5,10 +5,8 @@ import numpy as np
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
-from urllib.request import urlopen
 import datetime
 from datetime import date
-import win32com.client as win32
 import time
 
 
