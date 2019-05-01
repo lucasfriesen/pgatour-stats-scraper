@@ -1,5 +1,5 @@
 # pgatour-stats-scraper
-## Web Scraper for Professional Golf Tournament Results
+## Web Scraper for PGA TOUR Stats from pgatour.com
 
 ### Install the pga_stats_scraper script, and use the master function as follows:
 
