@@ -1,7 +1,9 @@
 # pgatour-stats-scraper
 ## Web Scraper for PGA TOUR Stats from pgatour.com
 
-### Install the pga_stats_scraper script, and use the master function as follows:
+### Dependencies: os, pandas, requests, bs4, time
+
+#### Install the pga_stats_scraper script, and use the master function as follows:
 
 ------------------------------------------------------------
 
