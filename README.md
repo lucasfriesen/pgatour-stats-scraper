@@ -8,6 +8,7 @@
 ------------------------------------------------------------
 
 import pga_stats_scraper as ps
+
 df = ps.collect_stats(PATH, YEARS)
 
 PATH -> The folder to save all files
